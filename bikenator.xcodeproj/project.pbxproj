@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F22D6C632B973333008B27D1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C622B973333008B27D1 /* HealthKitManager.swift */; };
+		F22D6C642B973333008B27D1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C622B973333008B27D1 /* HealthKitManager.swift */; };
+		F22D6C672B973826008B27D1 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C662B973826008B27D1 /* ActivityView.swift */; };
+		F22D6C682B973826008B27D1 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C662B973826008B27D1 /* ActivityView.swift */; };
+		F22D6C702B97ECBA008B27D1 /* CurrentHeartRateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C6F2B97ECBA008B27D1 /* CurrentHeartRateCardView.swift */; };
+		F22D6C712B97ECBA008B27D1 /* CurrentHeartRateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C6F2B97ECBA008B27D1 /* CurrentHeartRateCardView.swift */; };
+		F2B8DD2E2B969D3100948FF6 /* bikenatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8DD2D2B969D3100948FF6 /* bikenatorApp.swift */; };
+		F2B8DD302B969D3100948FF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8DD2F2B969D3100948FF6 /* ContentView.swift */; };
+		F2B8DD322B969D3200948FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B8DD312B969D3200948FF6 /* Assets.xcassets */; };
+		F2B8DD352B969D3200948FF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B8DD342B969D3200948FF6 /* Preview Assets.xcassets */; };
+		F2B8DD3F2B969D3200948FF6 /* bikenatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8DD3E2B969D3200948FF6 /* bikenatorTests.swift */; };
+		F2B8DD492B969D3200948FF6 /* bikenatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8DD482B969D3200948FF6 /* bikenatorUITests.swift */; };
+		F2B8DD4B2B969D3200948FF6 /* bikenatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8DD4A2B969D3200948FF6 /* bikenatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2B8DD3B2B969D3200948FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B8DD222B969D3100948FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B8DD292B969D3100948FF6;
+			remoteInfo = bikenator;
+		};
+		F2B8DD452B969D3200948FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B8DD222B969D3100948FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B8DD292B969D3100948FF6;
+			remoteInfo = bikenator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F22D6C622B973333008B27D1 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		F22D6C662B973826008B27D1 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		F22D6C6F2B97ECBA008B27D1 /* CurrentHeartRateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentHeartRateCardView.swift; sourceTree = "<group>"; };
+		F2B8DD2A2B969D3100948FF6 /* bikenator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bikenator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B8DD2D2B969D3100948FF6 /* bikenatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikenatorApp.swift; sourceTree = "<group>"; };
+		F2B8DD2F2B969D3100948FF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2B8DD312B969D3200948FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B8DD342B969D3200948FF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2B8DD3A2B969D3200948FF6 /* bikenatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bikenatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B8DD3E2B969D3200948FF6 /* bikenatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikenatorTests.swift; sourceTree = "<group>"; };
+		F2B8DD442B969D3200948FF6 /* bikenatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bikenatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B8DD482B969D3200948FF6 /* bikenatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikenatorUITests.swift; sourceTree = "<group>"; };
+		F2B8DD4A2B969D3200948FF6 /* bikenatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikenatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2B8DD572B96A39900948FF6 /* bikenator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bikenator.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B8DD272B969D3100948FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8DD372B969D3200948FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8DD412B969D3200948FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F22D6C612B9732EA008B27D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F22D6C622B973333008B27D1 /* HealthKitManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F22D6C652B9737C7008B27D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F22D6C692B9738CE008B27D1 /* Components */,
+				F2B8DD2F2B969D3100948FF6 /* ContentView.swift */,
+				F22D6C662B973826008B27D1 /* ActivityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F22D6C692B9738CE008B27D1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F22D6C6A2B9738DD008B27D1 /* Activity */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F22D6C6A2B9738DD008B27D1 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				F22D6C6F2B97ECBA008B27D1 /* CurrentHeartRateCardView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		F2B8DD212B969D3100948FF6 = {
+			isa = PBXGroup;
+			children = (
+				F2B8DD2C2B969D3100948FF6 /* bikenator */,
+				F2B8DD3D2B969D3200948FF6 /* bikenatorTests */,
+				F2B8DD472B969D3200948FF6 /* bikenatorUITests */,
+				F2B8DD2B2B969D3100948FF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B8DD2B2B969D3100948FF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8DD2A2B969D3100948FF6 /* bikenator.app */,
+				F2B8DD3A2B969D3200948FF6 /* bikenatorTests.xctest */,
+				F2B8DD442B969D3200948FF6 /* bikenatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B8DD2C2B969D3100948FF6 /* bikenator */ = {
+			isa = PBXGroup;
+			children = (
+				F22D6C652B9737C7008B27D1 /* View */,
+				F22D6C612B9732EA008B27D1 /* Controller */,
+				F2B8DD572B96A39900948FF6 /* bikenator.entitlements */,
+				F2B8DD2D2B969D3100948FF6 /* bikenatorApp.swift */,
+				F2B8DD312B969D3200948FF6 /* Assets.xcassets */,
+				F2B8DD332B969D3200948FF6 /* Preview Content */,
+			);
+			path = bikenator;
+			sourceTree = "<group>";
+		};
+		F2B8DD332B969D3200948FF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8DD342B969D3200948FF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2B8DD3D2B969D3200948FF6 /* bikenatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8DD3E2B969D3200948FF6 /* bikenatorTests.swift */,
+			);
+			path = bikenatorTests;
+			sourceTree = "<group>";
+		};
+		F2B8DD472B969D3200948FF6 /* bikenatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8DD482B969D3200948FF6 /* bikenatorUITests.swift */,
+				F2B8DD4A2B969D3200948FF6 /* bikenatorUITestsLaunchTests.swift */,
+			);
+			path = bikenatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B8DD292B969D3100948FF6 /* bikenator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B8DD4E2B969D3200948FF6 /* Build configuration list for PBXNativeTarget "bikenator" */;
+			buildPhases = (
+				F2B8DD262B969D3100948FF6 /* Sources */,
+				F2B8DD272B969D3100948FF6 /* Frameworks */,
+				F2B8DD282B969D3100948FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bikenator;
+			productName = bikenator;
+			productReference = F2B8DD2A2B969D3100948FF6 /* bikenator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2B8DD392B969D3200948FF6 /* bikenatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B8DD512B969D3200948FF6 /* Build configuration list for PBXNativeTarget "bikenatorTests" */;
+			buildPhases = (
+				F2B8DD362B969D3200948FF6 /* Sources */,
+				F2B8DD372B969D3200948FF6 /* Frameworks */,
+				F2B8DD382B969D3200948FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B8DD3C2B969D3200948FF6 /* PBXTargetDependency */,
+			);
+			name = bikenatorTests;
+			productName = bikenatorTests;
+			productReference = F2B8DD3A2B969D3200948FF6 /* bikenatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2B8DD432B969D3200948FF6 /* bikenatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B8DD542B969D3200948FF6 /* Build configuration list for PBXNativeTarget "bikenatorUITests" */;
+			buildPhases = (
+				F2B8DD402B969D3200948FF6 /* Sources */,
+				F2B8DD412B969D3200948FF6 /* Frameworks */,
+				F2B8DD422B969D3200948FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B8DD462B969D3200948FF6 /* PBXTargetDependency */,
+			);
+			name = bikenatorUITests;
+			productName = bikenatorUITests;
+			productReference = F2B8DD442B969D3200948FF6 /* bikenatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B8DD222B969D3100948FF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F2B8DD292B969D3100948FF6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F2B8DD392B969D3200948FF6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F2B8DD292B969D3100948FF6;
+					};
+					F2B8DD432B969D3200948FF6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F2B8DD292B969D3100948FF6;
+					};
+				};
+			};
+			buildConfigurationList = F2B8DD252B969D3100948FF6 /* Build configuration list for PBXProject "bikenator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B8DD212B969D3100948FF6;
+			productRefGroup = F2B8DD2B2B969D3100948FF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B8DD292B969D3100948FF6 /* bikenator */,
+				F2B8DD392B969D3200948FF6 /* bikenatorTests */,
+				F2B8DD432B969D3200948FF6 /* bikenatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B8DD282B969D3100948FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B8DD352B969D3200948FF6 /* Preview Assets.xcassets in Resources */,
+				F2B8DD322B969D3200948FF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8DD382B969D3200948FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8DD422B969D3200948FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B8DD262B969D3100948FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B8DD302B969D3100948FF6 /* ContentView.swift in Sources */,
+				F22D6C702B97ECBA008B27D1 /* CurrentHeartRateCardView.swift in Sources */,
+				F22D6C672B973826008B27D1 /* ActivityView.swift in Sources */,
+				F2B8DD2E2B969D3100948FF6 /* bikenatorApp.swift in Sources */,
+				F22D6C632B973333008B27D1 /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8DD362B969D3200948FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22D6C642B973333008B27D1 /* HealthKitManager.swift in Sources */,
+				F2B8DD3F2B969D3200948FF6 /* bikenatorTests.swift in Sources */,
+				F22D6C682B973826008B27D1 /* ActivityView.swift in Sources */,
+				F22D6C712B97ECBA008B27D1 /* CurrentHeartRateCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8DD402B969D3200948FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B8DD4B2B969D3200948FF6 /* bikenatorUITestsLaunchTests.swift in Sources */,
+				F2B8DD492B969D3200948FF6 /* bikenatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2B8DD3C2B969D3200948FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B8DD292B969D3100948FF6 /* bikenator */;
+			targetProxy = F2B8DD3B2B969D3200948FF6 /* PBXContainerItemProxy */;
+		};
+		F2B8DD462B969D3200948FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B8DD292B969D3100948FF6 /* bikenator */;
+			targetProxy = F2B8DD452B969D3200948FF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2B8DD4C2B969D3200948FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2B8DD4D2B969D3200948FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B8DD4F2B969D3200948FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bikenator/bikenator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bikenator/Preview Content\"";
+				DEVELOPMENT_TEAM = CT86K8Y3V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the data and show it in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zaltron.bikenator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2B8DD502B969D3200948FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bikenator/bikenator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bikenator/Preview Content\"";
+				DEVELOPMENT_TEAM = CT86K8Y3V8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the data and show it in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zaltron.bikenator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2B8DD522B969D3200948FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zaltron.bikenatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bikenator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bikenator";
+			};
+			name = Debug;
+		};
+		F2B8DD532B969D3200948FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zaltron.bikenatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bikenator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bikenator";
+			};
+			name = Release;
+		};
+		F2B8DD552B969D3200948FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zaltron.bikenatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bikenator;
+			};
+			name = Debug;
+		};
+		F2B8DD562B969D3200948FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zaltron.bikenatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bikenator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B8DD252B969D3100948FF6 /* Build configuration list for PBXProject "bikenator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8DD4C2B969D3200948FF6 /* Debug */,
+				F2B8DD4D2B969D3200948FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B8DD4E2B969D3200948FF6 /* Build configuration list for PBXNativeTarget "bikenator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8DD4F2B969D3200948FF6 /* Debug */,
+				F2B8DD502B969D3200948FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B8DD512B969D3200948FF6 /* Build configuration list for PBXNativeTarget "bikenatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8DD522B969D3200948FF6 /* Debug */,
+				F2B8DD532B969D3200948FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B8DD542B969D3200948FF6 /* Build configuration list for PBXNativeTarget "bikenatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8DD552B969D3200948FF6 /* Debug */,
+				F2B8DD562B969D3200948FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B8DD222B969D3100948FF6 /* Project object */;
+}
