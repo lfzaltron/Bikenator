@@ -15,7 +15,8 @@ let healthDataTypes: Set = [
 class HealthKitManager: ObservableObject {
     var healthStore = HKHealthStore()
     
-    @Published var currentHeartRate: Int = 0
+    @Published var currentHeartRate: Double = 0
+    var age = 33 //TODO: remove
     
     static let shared = HealthKitManager()
     
@@ -66,7 +67,7 @@ class HealthKitManager: ObservableObject {
                 if let heartRate {
                     print("Latest heart rate: \(heartRate) bpm")
                     DispatchQueue.main.async {
-                        self.currentHeartRate = Int(heartRate)
+                        self.currentHeartRate = heartRate
                     }
                 } else {
                     print("Heart rate not available.")
@@ -112,4 +113,30 @@ class HealthKitManager: ObservableObject {
         healthStore.execute(query)
     }
     
+    func getCurrentEffort() -> Double {
+        return (currentHeartRate * 100) / Double((220-age));
+    }
+    
+    let trainingZones = [(zone: "VO2Max", detail: "Develops maximum performance and speed", color: "red"),
+                         (zone: "Anaerobic", detail: "Increases maximum performance capacity", color: "orange"),
+                         (zone: "Aerobic", detail: "Improves aerobic fitness", color: "yellow"),
+                         (zone: "Endurance", detail: "Improves basic endurance and fat burning", color: "green"),
+                         (zone: "Recovery", detail: "Improves overall health and helps recovery", color: "aqua")]
+    func getCurrentTrainingZone() -> (zone: String, detail: String, color: String ) {
+        let currentEffort = getCurrentEffort()
+        
+        if currentEffort >= 90 {
+            return trainingZones[0]
+        }
+        if currentEffort >= 80 {
+            return trainingZones[1]
+        }
+        if currentEffort >= 70 {
+            return trainingZones[2]
+        }
+        if currentEffort >= 60 {
+            return trainingZones[3]
+        }
+        return trainingZones[4]
+    }
 }
