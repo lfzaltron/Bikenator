@@ -25,6 +25,7 @@ struct ActivityView: View {
                         .onAppear {
                             healthKitManager.fetchAllDatas()
                         }
+                    TrainingZoneGraphView()
                 }
             }
         }.padding(.top, 16)

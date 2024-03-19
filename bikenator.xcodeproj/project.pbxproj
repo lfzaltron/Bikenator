@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20EC19C2BA91B1700B32C88 /* TrainingZoneGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20EC19B2BA91B1700B32C88 /* TrainingZoneGraphView.swift */; };
 		F22D6C632B973333008B27D1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C622B973333008B27D1 /* HealthKitManager.swift */; };
 		F22D6C642B973333008B27D1 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C622B973333008B27D1 /* HealthKitManager.swift */; };
 		F22D6C672B973826008B27D1 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D6C662B973826008B27D1 /* ActivityView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20EC19B2BA91B1700B32C88 /* TrainingZoneGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingZoneGraphView.swift; sourceTree = "<group>"; };
 		F22D6C622B973333008B27D1 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		F22D6C662B973826008B27D1 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		F22D6C6F2B97ECBA008B27D1 /* CurrentHeartRateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentHeartRateCardView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				F22D6C692B9738CE008B27D1 /* Components */,
 				F2B8DD2F2B969D3100948FF6 /* ContentView.swift */,
 				F22D6C662B973826008B27D1 /* ActivityView.swift */,
+				F20EC19B2BA91B1700B32C88 /* TrainingZoneGraphView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				F2B8DD302B969D3100948FF6 /* ContentView.swift in Sources */,
 				F22D6C702B97ECBA008B27D1 /* CurrentHeartRateCardView.swift in Sources */,
 				F22D6C672B973826008B27D1 /* ActivityView.swift in Sources */,
+				F20EC19C2BA91B1700B32C88 /* TrainingZoneGraphView.swift in Sources */,
 				F2B8DD2E2B969D3100948FF6 /* bikenatorApp.swift in Sources */,
 				F22D6C632B973333008B27D1 /* HealthKitManager.swift in Sources */,
 			);

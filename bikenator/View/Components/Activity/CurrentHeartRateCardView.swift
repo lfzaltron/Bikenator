@@ -80,7 +80,7 @@ struct CurrentHeartRateCardView: View {
             
             Text("\(trainingZone.detail)").font(.caption2).foregroundColor(.gray)
             
-        }.frame(width: 361, height: 460)
+        }.frame(width: 361, height: 340)
             .overlay(
                 RoundedRectangle(cornerRadius: 16)
                     .stroke(.gray.opacity(0.5), lineWidth: 1)
